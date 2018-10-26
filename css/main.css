@@ -1,5 +1,41 @@
 .post {
+    float: left;
+    background-color: purple; /* standard background color */
+    color: white;
+    border: 1px solid #898989;
+    border-radius: 11px;
+    padding: 10px 10px;
+    margin-left:4%;
+    margin-bottom: 20px;
     text-align: center;
-    background-color: white;
-    color: green;
+    /* change border to be inside the box */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+    height: 500px;
+    max-height: 500px;
+}
+
+.head {
+    text-align: center;
+    font-size: 10.0rem;
+    border-color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+
+}
+
+.first-child {
+    margin-left: 0;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon{
+    width: 10.0rem
 }
