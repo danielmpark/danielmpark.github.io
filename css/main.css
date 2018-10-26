@@ -5,15 +5,13 @@
     border: 1px solid #898989;
     border-radius: 11px;
     padding: 10px 10px;
-    margin-left:4%;
-    margin-bottom: 20px;
     text-align: center;
     /* change border to be inside the box */
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
-    width: 30%;
-    display: inline-block;
+    width: 50%;
+    display: block;
     margin-top: 10px;
     height: 500px;
     max-height: 500px;
@@ -52,6 +50,7 @@ a {
 .wod-header {
     font-weight: 800;
     font-size: 3.0rem;
+    font-size: 4vw;
     padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
     text-shadow: 2px 2px 2px #000;
@@ -64,14 +63,15 @@ a {
     text-shadow: 2px 2px 2px #000;
 }
 .single-post {
-    background-color: #86BD6B;
-    color:white;
+    border: 2px solid #86BD6B;
+    color:#86BD6B;
     text-align: center;
     border-radius: 11px;
     padding: 20px 20px 20px 20px;
     font-family: 'Montserrat', sans-serif;
 
     display: inline-block;
+    font-size: 2vw;
 
     float: left;
     clear: left;
@@ -80,12 +80,14 @@ a {
 
 .post-block{
     margin: auto;
-    width: 60%;
+    width: 90%;
     padding: 10px;
 }
 .single-post-header {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
+
+    font-size: 7vw;
 
 }
 #wrap {
