@@ -2,6 +2,8 @@ a {
     font-weight: 800;
     color: #86BD6B;
 }
+
+
 a:hover{
     text-decoration: none;
 }
@@ -76,6 +78,14 @@ body {
 .coach-em{
     color: #0B1C30;
 }
+.logo-header{
+    height: auto;
+    width: auto;
+    max-width: 40px;
+    max-height: 40px;
+    position: relative;
+    top: -10px;
+}
 
 
 @media screen and (min-width: 480px) {
@@ -91,6 +101,7 @@ body {
     .coach-note{
         font-size: 1.1rem;
     }
+
 }
 @media screen and (max-width: 480px) {
     .single-post-title{
