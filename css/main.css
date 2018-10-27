@@ -1,9 +1,6 @@
 a {
-    font-weight: 800;
     color: #86BD6B;
 }
-
-
 a:hover{
     text-decoration: none;
 }
@@ -35,6 +32,10 @@ body {
     padding: 2px;
 
 }
+.post-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .wod-title{
     text-shadow: 1px 1px 1px #000;
     font-size: 2.0rem;
@@ -51,8 +52,6 @@ body {
     font-size: 8.5rem;
 
 }
-
-/*<!-- Figuring out -->*/
 .single-post {
     border: 2px solid #86BD6B;
     color:#86BD6B;
@@ -99,7 +98,7 @@ body {
         font-size: 1.75rem;
     }
     .coach-note{
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
 
 }
@@ -118,11 +117,3 @@ body {
     }
 }
 
-
-.nav-style {
-    color: purple;
-}
-.post-top {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
