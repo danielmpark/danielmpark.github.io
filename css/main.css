@@ -54,7 +54,7 @@ body {
 }
 .single-post {
     border: 2px solid #86BD6B;
-    color:#86BD6B;
+    color: black;
     text-align: center;
     border-radius: 11px;
     padding: 20px 20px 20px 20px;
@@ -66,10 +66,12 @@ body {
 }
 .single-post-title{
     text-shadow: 1px 1px 1px #000;
+    color: #86BD6B;
 }
 .single-post-subtitle{
     padding-bottom: 10px;
     text-shadow: 1px 1px 1px #000;
+    color: #86BD6B;
 
 }
 .coach-note{
@@ -77,7 +79,7 @@ body {
     padding-top: 20px;
 }
 .coach-em{
-    color: #0B1C30;
+    color: #86BD6B;
 }
 .logo-header{
     height: auto;
