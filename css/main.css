@@ -40,11 +40,20 @@ body {
     text-shadow: 1px 1px 1px #000;
     font-size: 2.0rem;
 }
+
+.wod-desc{
+    font-size: 1.5rem;
+}
 .wod-subtitle {
     text-shadow: none;
     font-size: 2vw;
 
 }
+
+.wod-body {
+    white-space: pre-wrap;
+}
+
 .single-post-header {
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
